@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>SO4</title>
+   </head>
+   <body>
+      <!-- Kala ko eto header haha -->
+      <div>
+         <h1 style="display: inline-block;">Activity:S04</h1>
+         <img src="./images/zuitt_logo.png" style="display: inline-block;position: absolute; right: 0px;height: 75px;">
+         <hr style="height:2px;background-color:lightblue;">
+      </div>
+      <header>
+         <h1>Zuitt IT Solutions</h1>
+         <h3>Products Offered</h3>
+      </header>
+      <section>
+         <table border="1">
+            <thead>
+               <tr>
+                  <th>Package</th>
+                  <th>Price</th>
+                  <th>Description</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>Basic</td>
+                  <td>&#8369 500</td>
+                  <td>
+                     Package includes a fully functional website with desired specifications.
+                  </td>
+               </tr>
+               <tr>
+                  <td>Premium</td>
+                  <td>&#8369 1000</td>
+                  <td>
+                     Enjoy all the benefits of the basic package and also includes site support and maintenance.
+                  </td>
+               </tr>
+               <tr>
+                  <td colspan="3" align="center"><strong>Additional features after initial project is inclusive of charges</strong></td>
+               </tr>
+            </tbody>
+         </table>
+      </section>
+      <br><br>
+      <section id="inquiryForm">
+      	<form>
+               <h3>Contact Form</h3>
+               <br>
+               <label>First Name:</label><br>
+               <input type="text" name="firstName" placeholder="Alexis" required autocomplete>
+               <br>
+               <label>Last Name:</label><br>
+               <input type="text" name="lastName" placeholder="Sales" required autocomplete>
+               <br>
+               <label>Email:</label><br>
+               <input type="email" name="email" placeholder="example@sample.com" required autocomplete>
+               <br>
+               <label>Contact Number:</label><br>
+               <input type="tel" name="contactNumber" placeholder="+63 ##########" required autocomplete>
+               <br>
+               <label>Service Type:</label><br>
+               <select type="number" name="serviceType">
+                  <option value="frontEnd" selected>Front End Programming</option>
+                  <option value="backEnd">Back End Programming</option>
+               </select>
+               <br>
+               <label>Preferred Contact:</label><br>
+               <input type="checkbox" name="emailContact" value="emailContact" id="emailContact">
+               <label for="emailC">Email</label>
+               <br>
+               <input type="checkbox" name="phoneContact" value="phoneContact" id="phoneContact">
+               <label for="phoneC">Phone Package:</label>
+               <!-- radio -->
+               <br>
+               <input type="radio" name="phone_package" value="No" id="phone_basic">
+               <label for="user-type1">Basic</label>
+               <br>
+               <input type="radio" name="phone_package" value="No" id="phone_premium">
+               <label for="user-type2">Premium</label>
+               <br>
+               <label for="msg">Message</label>
+               <br>
+               <textarea name="notes" id="notes" rows="5" cols="20" style="resize: none" placeholder="Give us more details."></textarea>
+               <br>
+               <button type="submit">Send Inquiry</button>
+               <br>
+               <button type="reset">Reset</button>
+            </form>
+       </section>
+   </body>
+</html>
